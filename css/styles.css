@@ -161,7 +161,7 @@ body {
 }
 
 .footer .logo,
-.footer .address {
+.footer .link.address {
   color: var(--white-color);
 }
 
