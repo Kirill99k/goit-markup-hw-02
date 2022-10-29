@@ -55,10 +55,7 @@ body {
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-
+.site-nav .link:focus,
 .site-nav .link.current {
   color: var(--accent-color);
 }
@@ -140,6 +137,7 @@ body {
 
 /* button */
 .button {
+  font-family: inherit;
   color: var(--white-color);
   background-color: var(--accent-color);
   font-weight: 700;
