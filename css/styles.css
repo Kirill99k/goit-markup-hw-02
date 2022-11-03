@@ -6,9 +6,9 @@
 /* вторинний фон  #2F303A; */
 
 /* font-family: 'Raleway'; 
-font-style: normal; (500)*/
+font-style: normal; (400)*/
 /* font-family: 'Roboto';
-font-style: normal; (500) */
+font-style: normal; (400) */
 
 :root {
   --primary-text-color: #757575;
@@ -43,10 +43,9 @@ body {
   color: var(--accent-color);
 }
 
-/* site-nav */
-.site-nav .link {
+/* nav-list */
+.nav-list .link {
   color: var(--title-color);
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -54,9 +53,9 @@ body {
   text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus,
-.site-nav .link.current {
+.nav-list .link:hover,
+.nav-list .link:focus,
+.nav-list .link.current {
   color: var(--accent-color);
 }
 
@@ -98,7 +97,6 @@ body {
 /* section */
 .section-title {
   color: var(--title-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -106,7 +104,6 @@ body {
 
 .section .title {
   color: var(--title-color);
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
@@ -165,6 +162,7 @@ body {
 
 .footer .link {
   color: var(--paragraph-footer-color);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -180,7 +178,6 @@ body {
 
 .portfolio .title {
   color: var(--title-color);
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
